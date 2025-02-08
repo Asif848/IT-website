@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XYZ TechSolutions - IT Company</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="it logo.avif" alt="XYZ TechSolutions Logo" />
+          <h1>XYZ TechSolutions</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <img src="herobg.avif" alt="HeroBgLogo" />
+        <h1>Innovative IT Solutions for Your Business</h1>
+        <p>
+          We provide cutting-edge technology services to help your business
+          grow.
+        </p>
+        <a href="#services" class="btn">Explore Services</a>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>
+          XYZ TechSolutions is a leading IT company specializing in software
+          development, cloud computing, and cybersecurity. Our team of experts
+          is dedicated to delivering high-quality solutions tailored to your
+          needs.
+        </p>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <div class="service-list">
+          <div class="service-item">
+            <img src="sotware development.avif" alt="Software Development" />
+            <h3>Software Development</h3>
+            <p>
+              We build custom software solutions to streamline your business
+              operations.
+            </p>
+          </div>
+          <div class="service-item">
+            <img src="cloud computing.avif" alt="Cloud Computing" />
+            <h3>Cloud Computing</h3>
+            <p>Scalable and secure cloud solutions for your business needs.</p>
+          </div>
+          <div class="service-item">
+            <img src="cyberSec.avif" alt="Cybersecurity" />
+            <h3>Cybersecurity</h3>
+            <p>
+              Protect your business from cyber threats with our advanced
+              security solutions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Chatbot Interface -->
+    <div id="chatbot-container">
+      <div id="chatbot-header">
+        <h3>AI Assistant</h3>
+        <button id="chatbot-close">×</button>
+      </div>
+      <div id="chatbot-body">
+        <div id="chatbot-messages"></div>
+      </div>
+      <div id="chatbot-input-container">
+        <input
+          type="text"
+          id="chatbot-input"
+          placeholder="Ask me anything..."
+        />
+        <button id="chatbot-send">Send</button>
+      </div>
+    </div>
+    <button id="chatbot-toggle">Chat with AI</button>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="container">
+        <p>2025 XYZ TechSolutions. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
